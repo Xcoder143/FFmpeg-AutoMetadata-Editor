@@ -22,4 +22,10 @@ Automatically organizes episodes by season, updates metadata titles, reorders au
 ---
 
 ## Repository Structure
+FFmpeg-Metadata-Editor/
+│
+├── README.md
+├── auto_metadata_colab.sh # Bash script for Google Colab
+├── auto_metadata_local.sh # Bash script for local Linux/WSL
+└── sample_videos/ # Optional: example MKV files
 

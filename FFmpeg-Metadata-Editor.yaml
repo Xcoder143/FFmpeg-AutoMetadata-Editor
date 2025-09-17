@@ -1,0 +1,19 @@
+
+---
+
+## Requirements
+
+- **FFmpeg** installed (`apt-get install ffmpeg` in Linux/Colab)  
+- Bash shell (supports `shopt nullglob`)  
+
+---
+
+## Usage
+
+### Google Colab
+
+1. Upload your MKV files to a folder in Colab (e.g., `/content/`).  
+2. Open a new Colab cell and run the following:
+
+```bash
+!bash auto_metadata_colab.sh
